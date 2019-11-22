@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test1" time="48.872" tests="1" failures="0" errors="0">
+   <testsuite name="Test1" tests="1" failures="0" errors="0" time="48.872" timestamp="2019-11-22 10:35:08" hostname="jog.wpo5 - jogwks0116.jog.gameloft.org" id="Test Suites/Test1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\jog.wpo5\\Katalon Studio\\CCN Test\\Reports\\20191122_103504\\Test1\\20191122_103504"/>
+         <property name="logFiles" value="C:\\Users\\jog.wpo5\\Katalon Studio\\CCN Test\\Reports\\20191122_103504\\Test1\\20191122_103504\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="jog.wpo5 - jogwks0116.jog.gameloft.org"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.0.4.1"/>
+         <property name="browser" value="Chrome 78.0.3904.108"/>
+         <property name="hostAddress" value="10.212.8.154"/>
+         <property name="sessionId" value="8141c3757124ed679e10ceff0de2a617"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Test1" time="48.291" classname="Test Cases/Test1" status="PASSED">
+         <system-out><![CDATA[2019-11-22 10:35:08 - [TEST_CASE][PASSED] - Test Cases/Test1: Test Cases/Test1
+
+2019-11-22 10:35:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-11-22 10:35:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-22 10:35:10 - [MESSAGE][INFO] - Action delay is set to 2 seconds
+
+2019-11-22 10:35:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-11-22 10:35:18 - [TEST_STEP][PASSED] - navigateToUrl("http://www.siacargo.com/ccn/ShipmentTrack.aspx"): Navigate to 'http://www.siacargo.com/ccn/ShipmentTrack.aspx' successfully
+
+2019-11-22 10:35:21 - [MESSAGE][PASSED] - Navigate to 'http://www.siacargo.com/ccn/ShipmentTrack.aspx' successfully
+
+2019-11-22 10:35:21 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Track Shipment/input_Air Waybill 1_Suffix1"), "91503532"): Text '91503532' is set on object 'Object Repository/Page_Track Shipment/input_Air Waybill 1_Suffix1'
+
+2019-11-22 10:35:26 - [MESSAGE][PASSED] - Text '91503532' is set on object 'Object Repository/Page_Track Shipment/input_Air Waybill 1_Suffix1'
+
+2019-11-22 10:35:26 - [TEST_STEP][PASSED] - click(findTestObject("Page_Track Shipment/input__btnQuery")): Object: 'Object Repository/Page_Track Shipment/input__btnQuery' is clicked on
+
+2019-11-22 10:35:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Track Shipment/input__btnQuery' is clicked on
+
+2019-11-22 10:35:29 - [TEST_STEP][PASSED] - click(findTestObject("Page_Track Shipment/input_Shipment Delivered_btnSearchAgain")): Object: 'Object Repository/Page_Track Shipment/input_Shipment Delivered_btnSearchAgain' is clicked on
+
+2019-11-22 10:35:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Track Shipment/input_Shipment Delivered_btnSearchAgain' is clicked on
+
+2019-11-22 10:35:32 - [TEST_STEP][PASSED] - for ([i = 1, i < findTestData("csvdata").getRowNumbers() + 1, (i++)]): null
+
+2019-11-22 10:35:32 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Track Shipment/input_Air Waybill 2_Suffix2"), findTestData("csvdata").getValue(1, i)): Text '58749614' is set on object 'Object Repository/Page_Track Shipment/input_Air Waybill 2_Suffix2'
+
+2019-11-22 10:35:36 - [MESSAGE][PASSED] - Text '58749614' is set on object 'Object Repository/Page_Track Shipment/input_Air Waybill 2_Suffix2'
+
+2019-11-22 10:35:36 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Track Shipment/input_Air Waybill 3_Suffix3"), findTestData("csvdata").getValue(1, i)): Text '58749614' is set on object 'Object Repository/Page_Track Shipment/input_Air Waybill 3_Suffix3'
+
+2019-11-22 10:35:41 - [MESSAGE][PASSED] - Text '58749614' is set on object 'Object Repository/Page_Track Shipment/input_Air Waybill 3_Suffix3'
+
+2019-11-22 10:35:41 - [TEST_STEP][PASSED] - click(findTestObject("Page_Track Shipment/input__btnQuery")): Object: 'Object Repository/Page_Track Shipment/input__btnQuery' is clicked on
+
+2019-11-22 10:35:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Track Shipment/input__btnQuery' is clicked on
+
+2019-11-22 10:35:44 - [TEST_STEP][PASSED] - msg = getText(findTestObject("Object Repository/Page_Track Shipment/span_ Please check entries highlighted")): Text of object 'Object Repository/Page_Track Shipment/span_ Please check entries highlighted' is: '* Please check entries highlighted.'
+
+2019-11-22 10:35:44 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Track Shipment/span_ Please check entries highlighted' is: '* Please check entries highlighted.'
+
+2019-11-22 10:35:44 - [TEST_STEP][PASSED] - println(msg): null
+
+2019-11-22 10:35:44 - [TEST_STEP][PASSED] - if (msg == "* Please check entries highlighted."): null
+
+2019-11-22 10:35:44 - [TEST_STEP][PASSED] - <not implemented yet for class: org.codehaus.groovy.ast.stmt.ContinueStatement>: null
+
+2019-11-22 10:35:44 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Track Shipment/input_Air Waybill 2_Suffix2"), findTestData("csvdata").getValue(1, i)): Text '96328796' is set on object 'Object Repository/Page_Track Shipment/input_Air Waybill 2_Suffix2'
+
+2019-11-22 10:35:49 - [MESSAGE][PASSED] - Text '96328796' is set on object 'Object Repository/Page_Track Shipment/input_Air Waybill 2_Suffix2'
+
+2019-11-22 10:35:49 - [TEST_STEP][PASSED] - setText(findTestObject("Page_Track Shipment/input_Air Waybill 3_Suffix3"), findTestData("csvdata").getValue(1, i)): Text '96328796' is set on object 'Object Repository/Page_Track Shipment/input_Air Waybill 3_Suffix3'
+
+2019-11-22 10:35:53 - [MESSAGE][PASSED] - Text '96328796' is set on object 'Object Repository/Page_Track Shipment/input_Air Waybill 3_Suffix3'
+
+2019-11-22 10:35:53 - [TEST_STEP][PASSED] - click(findTestObject("Page_Track Shipment/input__btnQuery")): Object: 'Object Repository/Page_Track Shipment/input__btnQuery' is clicked on
+
+2019-11-22 10:35:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Track Shipment/input__btnQuery' is clicked on
+
+2019-11-22 10:35:55 - [TEST_STEP][PASSED] - msg = getText(findTestObject("Object Repository/Page_Track Shipment/span_ Please check entries highlighted")): Text of object 'Object Repository/Page_Track Shipment/span_ Please check entries highlighted' is: '* Please check entries highlighted.'
+
+2019-11-22 10:35:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/Page_Track Shipment/span_ Please check entries highlighted' is: '* Please check entries highlighted.'
+
+2019-11-22 10:35:56 - [TEST_STEP][PASSED] - println(msg): null
+
+2019-11-22 10:35:56 - [TEST_STEP][PASSED] - if (msg == "* Please check entries highlighted."): null
+
+2019-11-22 10:35:56 - [TEST_STEP][PASSED] - <not implemented yet for class: org.codehaus.groovy.ast.stmt.ContinueStatement>: null
+
+2019-11-22 10:35:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-11-22 10:35:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-22 10:35:08 - [TEST_SUITE][PASSED] - Test1: Test Cases/Test1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
